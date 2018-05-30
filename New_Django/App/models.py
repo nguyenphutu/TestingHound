@@ -12,7 +12,7 @@ class Band(models.Model):
 
 class Member(models.Model):
     """A model of a rock band member."""
-    name = models.CharField("Member's name", max_length=200)
+             name = models.CharField("Member's name", max_length=200)
     instrument = models.CharField(choices=(
                     ('g', "Guitar"),
                     ('b', "Bass"),
